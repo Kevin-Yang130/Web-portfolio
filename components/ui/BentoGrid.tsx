@@ -7,6 +7,7 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
+import { FaBasketballBall } from "react-icons/fa";
 
 export const BentoGrid = ({
   className,
@@ -106,11 +107,8 @@ export const BentoGridItem = ({
           {id === 2 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute bottom-8 lg:justify-center">
               <div className="flex flex-row gap-3 lg:gap-8">
-                {["Cooking", "Basketball", "Crypto", "Reading"].map((item) => (
-                  <span
-                    key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-100 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
+                {[<FaBasketballBall />].map((item) => (
+                  <span className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-100 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                     {item}
                   </span>
                 ))}
