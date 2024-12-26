@@ -89,11 +89,7 @@ export const BentoGridItem = ({
           )}
         </div>
 
-        {id === 6 && (
-          <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
-          </BackgroundGradientAnimation>
-        )}
+        {id === 6 && <BackgroundGradientAnimation />}
 
         <div
           className={cn(
@@ -107,6 +103,20 @@ export const BentoGridItem = ({
           <div className="font-sans font-bold text-lg lg:text-3xl max-w:96 z-10">
             {title}
           </div>
+          {id === 2 && (
+            <div className="flex gap-1 lg:gap-5 w-fit absolute bottom-8 lg:justify-center">
+              <div className="flex flex-row gap-3 lg:gap-8">
+                {["Cooking", "Basketball", "Crypto", "Reading"].map((item) => (
+                  <span
+                    key={item}
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-100 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
 
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
