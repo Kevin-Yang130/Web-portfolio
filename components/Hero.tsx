@@ -3,7 +3,6 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
-import { StarsBackground } from "./ui/ShootingStars";
 // import { TypewriterEffect } from "./ui/Typewritter";
 
 const Hero = () => {
@@ -37,7 +36,8 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Explore my projects and see what I've been working on!
+            Hi, I'm Kevin. Explore my projects and see what I've been working
+            on!
           </p>
 
           <a href="#about">

@@ -7,7 +7,9 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
-import { FaBasketballBall } from "react-icons/fa";
+import { FlipWords } from "./FlipWords";
+import { CardStack } from "./CardStack";
+import { CARDS } from "../Cards";
 
 export const BentoGrid = ({
   className,
@@ -105,13 +107,15 @@ export const BentoGridItem = ({
             {title}
           </div>
           {id === 2 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute bottom-8 lg:justify-center">
-              <div className="flex flex-row gap-3 lg:gap-8">
-                {[<FaBasketballBall />].map((item) => (
-                  <span className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-100 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
-                    {item}
-                  </span>
-                ))}
+            <div className="">
+              <div className="flex flex-col gap-1 lg:gap-0.6 w-fit absolute top-19 lg:justify-center font-sans font-bold text-2xl lg:text-4xl ">
+                <span className="flex flex-row top-0 gap-3 lg:gap-0 font-sans font-bold text-2xl lg:text-4xl max-w:96 z-10">
+                  Transforming
+                  <FlipWords
+                    words={["ideas", "challenges", "concepts", "visions"]}
+                  />
+                </span>
+                into elegant, scalalable solutions.
               </div>
             </div>
           )}
@@ -141,6 +145,12 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
+            </div>
+          )}
+
+          {id === 5 && (
+            <div className="relative flex justify-center w-[103%] -bottom-7">
+              <CardStack items={CARDS} />
             </div>
           )}
 
