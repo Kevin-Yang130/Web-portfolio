@@ -100,12 +100,19 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
-            {description}
-          </div>
+          {id !== 4 && (
+            <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+              {description}
+            </div>
+          )}
           <div className="font-sans font-bold text-lg lg:text-3xl max-w:96 z-10">
             {title}
           </div>
+          {id === 4 && (
+            <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+              {description}
+            </div>
+          )}
           {id === 2 && (
             <div className="">
               <div className="flex flex-col gap-1 lg:gap-0.6 w-fit absolute top-19 lg:justify-center font-sans font-bold text-2xl lg:text-4xl ">

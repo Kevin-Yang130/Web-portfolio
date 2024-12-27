@@ -40,8 +40,8 @@ export const gridItems = [
     },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "\"If at first you don’t succeed, call it version 1.0.\"",
+    description: " - Anonymous",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
