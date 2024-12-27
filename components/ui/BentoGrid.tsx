@@ -7,6 +7,9 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
+import { FlipWords } from "./FlipWords";
+import { CardStack } from "./CardStack";
+import { CARDS } from "../Cards";
 
 export const BentoGrid = ({
   className,
@@ -89,11 +92,7 @@ export const BentoGridItem = ({
           )}
         </div>
 
-        {id === 6 && (
-          <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
-          </BackgroundGradientAnimation>
-        )}
+        {id === 6 && <BackgroundGradientAnimation />}
 
         <div
           className={cn(
@@ -107,6 +106,19 @@ export const BentoGridItem = ({
           <div className="font-sans font-bold text-lg lg:text-3xl max-w:96 z-10">
             {title}
           </div>
+          {id === 2 && (
+            <div className="">
+              <div className="flex flex-col gap-1 lg:gap-0.6 w-fit absolute top-19 lg:justify-center font-sans font-bold text-2xl lg:text-4xl ">
+                <span className="flex flex-row top-0 gap-3 lg:gap-0 font-sans font-bold text-2xl lg:text-4xl max-w:96 z-10">
+                  Transforming
+                  <FlipWords
+                    words={["ideas", "challenges", "concepts", "visions"]}
+                  />
+                </span>
+                into elegant, scalalable solutions.
+              </div>
+            </div>
+          )}
 
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
@@ -133,6 +145,12 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
+            </div>
+          )}
+
+          {id === 5 && (
+            <div className="relative flex justify-center w-[103%] -bottom-7">
+              <CardStack items={CARDS} />
             </div>
           )}
 
