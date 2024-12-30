@@ -20,8 +20,8 @@ export const CardStack = ({
   offset?: number;
   scaleFactor?: number;
 }) => {
-  const CARD_OFFSET = offset || 10;
-  const SCALE_FACTOR = scaleFactor || 0.06;
+  const CARD_OFFSET = offset || 15;
+  const SCALE_FACTOR = scaleFactor || 0.08;
   const [cards, setCards] = useState<Card[]>(items);
 
   useEffect(() => {
@@ -36,7 +36,7 @@ export const CardStack = ({
         newArray.unshift(newArray.pop()!); // move the last element to the front
         return newArray;
       });
-    }, 5000);
+    }, 9000);
   };
 
   return (

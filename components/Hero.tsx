@@ -32,10 +32,10 @@ const Hero = () => {
 
           <TextGenerateEffect
             className="text-center  text-[40px] md:text-5xl lg:text-6xl"
-            words="Building Scalable Solutions for a Seamless User Experience"
+            words="Driven by code. Inspired by people. Powered by impact."
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-5 text-sm md:text-lg lg:text-2xl">
             Hi, I'm Kevin. Explore my projects and see what I've been working
             on!
           </p>

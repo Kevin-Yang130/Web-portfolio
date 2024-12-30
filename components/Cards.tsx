@@ -2,34 +2,36 @@ export const CARDS = [
   {
     id: 0,
     name: "Nick Garcia",
-    designation: "Senior Software Engineer",
+    designation: "Senior Software Engineer @ UKG",
     content: (
       <p>
-        These cards are amazing, I want to use them in my project. Framer motion
-        is a godsend ngl tbh fam 🙏
+        "Without being asked to, he created documentation from his notes to
+        assist the onboarding process for future engineers. Since his
+        internship, that document has been used to onboard two teams"
       </p>
     ),
   },
   {
     id: 1,
-    name: "Elon Musk",
-    designation: "Senior Shitposter",
+    name: "Anonymous",
+    designation: "Student @ C++ Prog. Fundamentals",
     content: (
       <p>
-        I dont like this Twitter thing, deleting it right away because yolo.
-        Instead, I would like to call it X.com so that it can easily be confused
-        with adult sites.
+        "Shoutout my boy Kevin man. Always helping with lab demonstrations and
+        debugging while having a huge smile of the year."
       </p>
     ),
   },
   {
     id: 2,
-    name: "Tyler Durden",
-    designation: "Manager Project Mayhem",
+    name: "Laura Cruz",
+    designation: "Professor @ University of Florida",
     content: (
       <p>
-        The first rule of Fight Club is that you do not talk about fight club.
-        The second rule of Fight club is that you DO NOT TALK about fight club.
+        "Kevin was always kind and patient, and he acknowledged the needs of
+        others by asking how I was doing in busy weeks and being extra patient
+        when deadlines were approaching and more students were visiting Office
+        Hours."
       </p>
     ),
   },
