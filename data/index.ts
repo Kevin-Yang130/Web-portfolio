@@ -1,5 +1,3 @@
-import { FaBasketballBall } from 'react-icons/fa'; 
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -10,12 +8,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Currently training an ML models to predict application counts on LinkedIn job postings based on other features.",
+    title: "Currently training ML models to predict the number of applications on LinkedIn job postings.",
     description: "The Inside Scoop",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/curr1.png",
     spareImg: "",
   },
   {
