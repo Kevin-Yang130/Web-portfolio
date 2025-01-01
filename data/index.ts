@@ -75,7 +75,7 @@ export const projects = [
      title: "ML Predictor for LinkedIn Job Posting Applications",
     des: "Ever wonder what makes a LinkedIn Job posting viral? This project leverages machine learning to analyze attributes like job title, industry, location, and more, it predicts application trends and provides actionable insights for recruiters to optimize their postings",
     img: "/test5.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/py.png", "/pandas.png", "/numpy.png", "/sklearn.png", "/co.png"],
     link: "https://github.com/Kevin-Yang130/ML-LinkedIn-Applications-Predictor/tree/main",
   },
   {
@@ -100,7 +100,7 @@ export const projects = [
     des: "Welcome to Taskly, a simple and intuitive to-do list app built with Swift to help you stay organized and productive. With Taskly, you can easily manage tasks, set priorities, and track your progress—all in one place!",
     img: "/todo.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://github.com/Kevin-Yang130/To-Do-List",
   },
 ];
 
@@ -132,13 +132,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link: "https://github.com/Kevin-Yang130"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/kevin-yang-li/"
   },
 ];  
