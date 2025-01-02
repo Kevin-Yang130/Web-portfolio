@@ -4,6 +4,33 @@ import { Timeline } from "./ui/TimeLine";
 const Education = () => {
   const data = [
     {
+      title: "Present",
+      content: (
+        <div>
+          <h1 className=" mb-8 text-xl">
+            Going for an Accelerated Master's in Computer Science at Penn. Took
+            my first master's level course (CIS5450 - Big Data Analytics).
+          </h1>
+          <div className="mb-8">
+            <div className="flex gap-2 items-center text-xl">Goals:</div>
+            <div className="flex gap-2 items-center text-xl">
+              ◻️ Declare an Accelerated Master's
+            </div>
+            <div className="flex gap-2 items-center text-xl">
+              ✅ Started playing Badminton again
+            </div>
+            <div className="flex gap-2 items-center text-xl">
+              ◻️ Join Mex@Penn and Wharton Undergraduate Data Analytics Club
+            </div>
+            <div className="flex gap-2 items-center text-xl">
+              ◻️ Deploy my first Mobile App in the App Store/Play Store
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-4"></div>
+        </div>
+      ),
+    },
+    {
       title: "April 2023",
       content: (
         <div>
@@ -50,9 +77,9 @@ const Education = () => {
       content: (
         <div>
           <h1 className="mb-8 text-xl">
-            Moved the U.S. from Peru with my sister for better opportunities and
-            education. Said bye to delicious Peruvian Ceviche, dear friends, and
-            family for a new beginning.
+            Moved from Peru to the U.S. with my sister in pursuit of better
+            opportunities and education. Said goodbye to delicious Peruvian
+            ceviche, dear friends, and family for a new beginning.
           </h1>
           <p className="text-neutral-800 dark:text-neutral-200 text-xl font-normal mb-8"></p>
           <div className="grid grid-cols-2 gap-4"></div>

@@ -16,7 +16,7 @@ const RecentProjects = () => {
 
   return (
     <div className="py-20" id="projects">
-      <TypewriterEffectSmooth words={words} className="flex justify-center" />
+      <div className="heading">A glimpse into my work</div>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (

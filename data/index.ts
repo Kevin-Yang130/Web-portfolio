@@ -51,7 +51,7 @@ export const gridItems = [
     id: 5,
     title: "Developer Buzz: What Friends and Peers Are Saying",
     description: "",
-    className: "md:col-span-3 md:row-span-2",
+    className: "hidden md:block md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "",
@@ -69,6 +69,8 @@ export const gridItems = [
   },
 ];
 
+
+
 export const projects = [
   {
     id: 1,
@@ -83,15 +85,15 @@ export const projects = [
     title: "[Comming soon] Data pipeline Insights Dashboard with AWS",
     des: " Built a scalable data pipeline and interactive dashboard using AWS services to analyze LinkedIn job posting data, uncovering key insights into application trends and job market dynamics.",
     img: "/aws.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    iconLists: ["/py.png", "/aws-lambda.svg", "/s3.png" , "/athene.png", "DynamoDB.png"],
+    link: "https://github.com/Kevin-Yang130",
   },
   {
     id: 3,
     title: "BreadBot - Your Tech Internship Companion",
     des: "BreadBot is a Discord bot designed to assist individuals in finding and preparing for tech internships, offering curated internship listings and resources to enhance their career readiness.",
     img: "/p4.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/py.png", "/replit.png"],
     link: "https://devpost.com/software/breadbot-internship-bot",
   },
   {
@@ -99,7 +101,7 @@ export const projects = [
     title: "Taskly - To Do List App",
     des: "Welcome to Taskly, a simple and intuitive to-do list app built with Swift to help you stay organized and productive. With Taskly, you can easily manage tasks, set priorities, and track your progress—all in one place!",
     img: "/todo.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/swift.png", "/xcode.png", "/firebase.png"],
     link: "https://github.com/Kevin-Yang130/To-Do-List",
   },
 ];
@@ -125,6 +127,13 @@ export const workExperience = [
     desc: "Got a taste of Facebook Coding Competitions (Meta Hacker Cup 2016) and enjoyed tackling exciting problems alongside a Senior SWE @ Google.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "L'SPACE Research @ NASA",
+    desc: "Implemented more efficient and cost-effective equipment used for managing data, communication, and information systems on the orbiter. This resulted in a 17% cost reduction in equipment.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp4.svg",
   },
 ];
 
