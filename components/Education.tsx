@@ -8,8 +8,9 @@ const Education = () => {
       content: (
         <div>
           <h1 className=" mb-8 text-xl">
-            Going for an Accelerated Master's in Computer Science at Penn. Took
-            my first master's level course (CIS5450 - Big Data Analytics).
+            Going for an <b>Accelerated Master's</b> in Computer Science at
+            Penn. Took my first master's level course (CIS5450 - Big Data
+            Analytics).
           </h1>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-xl">Goals:</div>
@@ -35,10 +36,10 @@ const Education = () => {
       content: (
         <div>
           <h1 className=" mb-8 text-xl">
-            Decided to transfer to the University of Pennsylvania to study
-            Computer Science and Economics. Saw snow for the first time and
-            finally enjoyed having a China Town to go for spontanous cravings
-            throughout the day.
+            Decided to transfer to the <b>University of Pennsylvania</b> to
+            study Computer Science and Economics. Saw snow for the first time
+            and finally enjoyed having a China Town to go for spontanous
+            cravings throughout the day.
           </h1>
           <div className="grid grid-cols-2 gap-4"></div>
         </div>
@@ -49,12 +50,12 @@ const Education = () => {
       content: (
         <div>
           <h1 className="mb-8 text-xl">
-            Kicked off my first year as a Computer Science major at the
-            University of Florida. Teamed up with NASA for research, became a
-            Teaching Assistant for Prog. Fundamentals 2 (helping students win
-            arguments with their compilers), and joined volunteering
-            organizations to help international students navigate the American
-            education system. Safe to say, I kept myself busy!
+            Kicked off my first year as a Computer Science major at the{" "}
+            <b>University of Florida</b>. Teamed up with <b>NASA</b> for
+            research, became a Teaching Assistant for Prog. Fundamentals 2
+            (helping students win arguments with their compilers), and joined
+            volunteering organizations to help international students navigate
+            the American education system. Safe to say, I kept myself busy!
           </h1>
           <div className="grid grid-cols-2 gap-4"></div>
           <div className="mb-8">
@@ -77,9 +78,9 @@ const Education = () => {
       content: (
         <div>
           <h1 className="mb-8 text-xl">
-            Moved from Peru to the U.S. with my sister in pursuit of better
-            opportunities and education. Said goodbye to delicious Peruvian
-            ceviche, dear friends, and family for a new beginning.
+            Moved from <b>Peru</b> to the U.S. with my sister in pursuit of
+            better opportunities and education. Said goodbye to delicious
+            Peruvian ceviche, dear friends, and family for a new beginning.
           </h1>
           <p className="text-neutral-800 dark:text-neutral-200 text-xl font-normal mb-8"></p>
           <div className="grid grid-cols-2 gap-4"></div>
@@ -88,7 +89,10 @@ const Education = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-center items-center mb-6 py-20">
+    <div
+      className="flex flex-col justify-center items-center mb-6 py-20"
+      id="education"
+    >
       <div className="heading">Education</div>
       <Timeline data={data} />
     </div>
