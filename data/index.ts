@@ -84,7 +84,7 @@ export const projects = [
   {
     id: 2,
     title: "[Comming soon] Data pipeline Insights Dashboard with AWS",
-    des: " Built a scalable data pipeline and interactive dashboard using AWS services to analyze LinkedIn job posting data, uncovering key insights into application trends and job market dynamics.",
+    des: "A scalable data pipeline and interactive dashboard using AWS services to analyze LinkedIn job posting data, uncovering key insights into application trends and job market dynamics.",
     img: "/aws.png",
     iconLists: ["/py.png", "/aws-lambda.svg", "/s3.png" , "/athene.png", "DynamoDB.png"],
     link: "https://github.com/Kevin-Yang130",

@@ -5,9 +5,9 @@ export const CARDS = [
     designation: "Senior Software Engineer @ UKG",
     content: (
       <p>
-        "Without being asked to, he created documentation from his notes to
+        &quot;Without being asked to, he created documentation from his notes to
         assist the onboarding process for future engineers. Since his
-        internship, that document has been used to onboard two teams"
+        internship, that document has been used to onboard two teams&quot;
       </p>
     ),
   },
