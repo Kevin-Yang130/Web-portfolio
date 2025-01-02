@@ -17,8 +17,8 @@ export const CARDS = [
     designation: "Student @ C++ Prog. Fundamentals",
     content: (
       <p>
-        "Shoutout my boy Kevin man. Always helping with lab demonstrations and
-        debugging while having a huge smile of the year."
+        &quot;Shoutout my boy Kevin man. Always helping with lab demonstrations
+        and debugging while having a huge smile of the year.&quot;
       </p>
     ),
   },
@@ -28,10 +28,10 @@ export const CARDS = [
     designation: "Professor @ University of Florida",
     content: (
       <p>
-        "Kevin was always kind and patient, and he acknowledged the needs of
-        others by asking how I was doing in busy weeks and being extra patient
-        when deadlines were approaching and more students were visiting Office
-        Hours."
+        &quot;Kevin was always kind and patient, and he acknowledged the needs
+        of others by asking how I was doing in busy weeks and being extra
+        patient when deadlines were approaching and more students were visiting
+        Office Hours.&quot;
       </p>
     ),
   },

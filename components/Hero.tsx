@@ -36,8 +36,8 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-5 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Kevin. Explore my projects and see what I've been working
-            on!
+            Hi, I&apos;m Kevin. Explore my projects and see what I&apos;ve been
+            working on!
           </p>
 
           <a href="#about">

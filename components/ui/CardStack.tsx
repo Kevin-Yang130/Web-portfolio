@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
+//eslint-disable-next-line
 let interval: any;
 
 type Card = {

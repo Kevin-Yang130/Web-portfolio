@@ -1,19 +1,9 @@
 import React from "react";
-import { TypewriterEffectSmooth } from "./ui/TypeWritter";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
 
 const RecentProjects = () => {
-  const words = [
-    { text: "A" },
-    { text: "Glimpse" },
-    { text: "into" },
-    { text: "my" },
-    { text: "work" },
-    { text: "." },
-  ];
-
   return (
     <div className="py-20" id="projects">
       <div className="heading">A glimpse into my work</div>
