@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -10,19 +11,10 @@ import { navItems } from "@/data";
 export default function Home() {
   return (
     <>
-      {/* Inline script to hide and show the body */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            document.body.style.display = "none";
-            window.onload = function () {
-              setTimeout(function () {
-                document.body.style.display = "";
-              }, 200);
-            };
-          `,
-        }}
-      ></script>
+      <Head>
+        <link rel="preload" href="/globals.css" as="style" />
+        <link rel="stylesheet" href="/globals.css" />
+      </Head>
       <main className="relative bg-black flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
         <div className="max-w-7xl w-full">
           <FloatingNav navItems={navItems} />
