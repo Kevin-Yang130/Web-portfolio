@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const svgToDataUri = require("mini-svg-data-uri");
+
 const colors = require("tailwindcss/colors");
 const {
   default: flattenColorPalette,
@@ -25,9 +26,6 @@ const config = {
       },
     },
     extend: {
-      backgroundColor: {
-        default: '#000',
-      },
       colors: {
         black: {
           DEFAULT: "#000",
@@ -84,11 +82,6 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
-        scroll: {
-          to: {
-            transform: "translate(calc(-50% - 0.5rem))",
-          },
-        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -146,6 +139,11 @@ const config = {
           },
           "100%": {
             transform: "translateY(-50%)",
+          },
+        },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
           },
         },
       },

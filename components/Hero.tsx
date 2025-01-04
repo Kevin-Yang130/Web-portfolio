@@ -3,7 +3,6 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
-// import { TypewriterEffect } from "./ui/Typewritter";
 
 const Hero = () => {
   return (
@@ -20,7 +19,7 @@ const Hero = () => {
         <Spotlight className="top-27 -left-81 h-[75vh] w-[49vw]" fill="white" />
       </div>
 
-      <div className="h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute  top-0 left-0">
+      <div className="h-screen w-full dark:bg-black bg-black  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute  top-0 left-0">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
 
