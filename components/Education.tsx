@@ -8,7 +8,7 @@ const Education = () => {
       content: (
         <div>
           <h1 className=" mb-8 text-xl">
-            Going for an <b>Accelerated Master&apos;s</b> in Computer Science at
+            Going for an <b>Accelerated Master&apos;s</b> in Data Science at
             Penn. Took my first master&apos;s level course (CIS5450 - Big Data
             Analytics).
           </h1>
